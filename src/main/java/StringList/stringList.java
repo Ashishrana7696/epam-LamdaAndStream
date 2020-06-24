@@ -24,7 +24,7 @@ public class stringList {
                 .filter(value -> value.charAt(0) == 'a' && value.length() == 3)
                 .collect(Collectors.toList());
 
-        
+
 
         System.out.println(getMyList);
 
